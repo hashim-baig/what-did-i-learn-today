@@ -9,7 +9,7 @@
     <head>
         <title>JavaScript</title>
         <script>
-            alert("JavaScript Loaded");;
+            alert("JavaScript Loaded");
         </script>
     </head>
     <body>
@@ -22,7 +22,7 @@
 
 - ## Writing JavaScript in another file
 
-``` index.html
+```index.html
 <!DOCTYPE html>
 <html>
     <head>
@@ -36,8 +36,8 @@
 
 ```
 
-``` script.js
+```script.js
 
-alert("JavaScript Loaded)
+alert("JavaScript Loaded")
 
 ```
