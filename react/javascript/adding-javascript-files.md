@@ -2,7 +2,7 @@
 
 - ## Writing JavaScript inside Head Tag
 
-``` index.html
+```index.html
 
 <!DOCTYPE html>
 <html>
@@ -23,6 +23,7 @@
 - ## Writing JavaScript in another file
 
 ```index.html
+
 <!DOCTYPE html>
 <html>
     <head>
