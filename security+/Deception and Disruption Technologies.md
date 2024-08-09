@@ -13,21 +13,21 @@ A company sets up a honeypot that mimics a vulnerable web server containing fake
 
 A honeynet is a network of honeypots designed to simulate a larger, more complex environment. It provides deeper insights into coordinated attacks and more sophisticated threats.
 
-**Examples:**
+**Example:**
 A research organization sets up a honeynet that includes multiple servers, workstations, and network devices, all configured to look like a real corporate network. Cybercriminals targeting the organization's infrastructure engage with the honeynet, allowing researchers to observe the attack vectors and methods used across different network layers.
 
 ## 3. Honeyfile
 
 A honeyfile is a decoy file deliberately placed in a system or network to lure attackers. These files typically contain fake or misleading information and are monitored to detect unauthorized access.
 
-**Examples:**
+**Example:**
 An organization creates a honeyfile named "Employee_Salaries.xlsx" and places it on a shared drive. The file contains bogus data and is set up with monitoring tools to alert the security team if accessed. An insider threat or a malware infection attempts to open the honeyfile, triggering an alert and providing the security team with details about the unauthorized access.
 
 ## 4. Honeytoken
 
 A honeytoken is a piece of data or a token that, when accessed or used, indicates a security breach. It can be embedded in various parts of the network or applications.
 
-**Examples:**
+**Example:**
 A company embeds a fake API key (honeytoken) within its codebase. If the honeytoken is ever used, it indicates that the codebase has been accessed by an unauthorized party. A hacker gains access to the company's source code repository and finds the embedded API key. When they try to use it, the company receives an alert, indicating a security breach and enabling them to respond quickly.
 
 ## Summary
